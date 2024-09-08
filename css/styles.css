@@ -1,1 +1,14 @@
-/*Initial css file */
+.flex-container {
+     display: flex;
+     flex-direction: column;
+     
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 300px;
+    width: auto;
+    flex: auto;
+  }
